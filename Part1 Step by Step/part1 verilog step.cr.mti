@@ -1,0 +1,16 @@
+{E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/compare1b.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/compare1b.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module compare1b
+
+Top level modules:
+	compare1b
+
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module compare1b
+-- Compiling module tb_compare1b
+
+Top level modules:
+	tb_compare1b
+
+} {} {}}

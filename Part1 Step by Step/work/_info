@@ -1,0 +1,68 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dE:/SJTU/2021-2022-1/DSD/ModelSim
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+V[eCzJk__geI?MQ[7bQUhc0
+04 12 4 work tb_compare1b fast 0
+=1-60f2629bf6cc-61af837f-380-6a00
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.2c;57
+Z3 dE:/SJTU/2021-2022-1/DSD/ModelSim
+!s110 1638892416
+T_opt1
+!s110 1638892595
+V@ATKb0[VPRjj]EFLMlL5o1
+04 9 4 work compare1b fast 0
+=1-60f2629bf6cc-61af8433-28d-6904
+R1
+n@_opt1
+R2
+vcompare1b
+Z4 !s110 1638892387
+IIk@[jQdcFEMhHf`cVZ9_@1
+Z5 V`JN@9S9cnhjKRR_L]QIcM3
+Z6 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step
+Z7 w1638892383
+Fcompare1b.v
+Z8 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v
+Z9 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v
+L0 4
+Z10 OL;L;10.2c;57
+r1
+31
+Z11 !s108 1638892387.202000
+Z12 !s107 compare1b.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v|
+Z14 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 4_bSUaUJdh`]@C^WjNA?I0
+!i10b 1
+!s85 0
+!i111 0
+vtb_compare1b
+R4
+Ia`dYLSKHmD4_Yc?TN<13B1
+R5
+R6
+R7
+R8
+R9
+L0 5
+R10
+r1
+31
+R11
+R12
+R13
+R14
+!i10b 1
+!s100 WI`?Xn44L?HFQLaHN89^C0
+!s85 0
+!i111 0
