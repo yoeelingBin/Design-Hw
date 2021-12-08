@@ -6,27 +6,32 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	tb_Encoder8x3
 
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_prim.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_prim.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling UDP comb_prim
+
+Top level modules:
+	--none--
+
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/testbench_comb.v} {2 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/testbench_comb.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module comb_str
+-- Compiling module comb_dataflow
+** Warning: comb_behavior.v(5): (vlog-2275) 'comb_dataflow' already exists and will be overwritten.
+
+-- Compiling module comb_dataflow
+-- Compiling UDP comb_prim
+-- Compiling module testbench_comb
+
+Top level modules:
+	testbench_comb
+
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mux2x1.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mux2x1.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling module mux2x1
 
 Top level modules:
 	mux2x1
-
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/wavegen.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/wavegen.v}
-Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module wavegen
-
-Top level modules:
-	wavegen
-
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux2x1.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux2x1.v}
-Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module mux2x1
--- Compiling module tb_mux2x1
-
-Top level modules:
-	tb_mux2x1
 
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mux4x1.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mux4x1.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
@@ -36,11 +41,49 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	mux4x1
 
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_str.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_str.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module comb_str
+
+Top level modules:
+	comb_str
+
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux2x1.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux2x1.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module mux2x1
+-- Compiling module tb_mux2x1
+
+Top level modules:
+	tb_mux2x1
+
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_dataflow.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_dataflow.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module comb_dataflow
+
+Top level modules:
+	comb_dataflow
+
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/Encoder8x3.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/Encoder8x3.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling module Encoder8x3
 
 Top level modules:
 	Encoder8x3
+
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module mux2x1
+-- Compiling module mux4x1
+-- Compiling module tb_mux4x1
+
+Top level modules:
+	tb_mux4x1
+
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/wavegen.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/wavegen.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module wavegen
+
+Top level modules:
+	wavegen
 
 } {} {}}

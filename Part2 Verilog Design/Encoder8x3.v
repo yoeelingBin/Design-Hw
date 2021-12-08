@@ -6,6 +6,7 @@
   module Encoder8x3(output reg[2:0] code, input [7:0] data);
     
     always@(*)
+    begin
       case(data)
         8'b0000_0001: code = 0;
         8'b0000_0010: code = 1;
@@ -17,5 +18,6 @@
         8'b1000_0000: code = 7;
         default: code = 3'bx;
       endcase
+    end
       
     endmodule
