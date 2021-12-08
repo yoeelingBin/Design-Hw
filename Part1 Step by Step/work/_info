@@ -9,31 +9,31 @@ Z0 dE:/SJTU/2021-2022-1/DSD/ModelSim
 !i10e 25
 !i10f 100
 T_opt
-V<@[G>R>1A<M4G8ioR4jXL3
-Z1 04 12 4 work tb_compare1b fast 0
-=1-60f2629bf6cc-61b00e8f-39f-5f2c
-Z2 o-quiet -auto_acc_if_foreign -work work
+!s110 1638930039
+V:=z^^V31FQ@lD;GLahmna1
+Z1 04 12 4 work tb_freq_div2 fast 0
+=1-60f2629bf6cc-61b01677-263-41e4
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
 n@_opt
 Z3 OL;O;10.2c;57
-Z4 dE:/SJTU/2021-2022-1/DSD/ModelSim
-!s110 1638928016
 T_opt1
-V@ATKb0[VPRjj]EFLMlL5o1
-04 9 4 work compare1b fast 0
-=1-60f2629bf6cc-61af8433-28d-6904
-R2
+VAVCl]zS3_PPKY5No2z3BQ2
+R1
+=1-60f2629bf6cc-61b01667-29b-5d50
+o-quiet -auto_acc_if_foreign -work work
 n@_opt1
 R3
-R4
-!s110 1638892595
+Z4 dE:/SJTU/2021-2022-1/DSD/ModelSim
+!s110 1638930024
 T_opt2
-!s110 1638928190
 VzjWdgjGXjGc2YS]`2@d5d2
-R1
+04 12 4 work tb_compare1b fast 0
 =1-60f2629bf6cc-61b00f3d-3a2-2c1c
-o-quiet -auto_acc_if_foreign -work work +acc
+R2
 n@_opt2
 R3
+R4
+!s110 1638928190
 vcompare1b
 Z5 !s110 1638928000
 IIk@[jQdcFEMhHf`cVZ9_@1
@@ -55,6 +55,26 @@ Z15 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
 !i10b 1
 !s85 0
 !i111 0
+vfreq_div2
+I5A@:=@_z4=[dBYlB7NAUL1
+R6
+R7
+w1638929580
+8E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/freq_div2.v
+FE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/freq_div2.v
+L0 5
+R11
+r1
+31
+R15
+!s110 1638930007
+!s100 =]@C[A0;7=1[Om=;6>@5c2
+!s108 1638930007.811000
+!s107 E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/freq_div2.v|
+!s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/freq_div2.v|
+!i10b 1
+!s85 0
+!i111 0
 vtb_compare1b
 R5
 I5fa]DalFR1ED9S3z;6zUb2
@@ -71,7 +91,27 @@ R12
 R13
 R14
 R15
-!i10b 1
 !s100 5;ko3V:z_[<ci5NERWa3O0
+!i10b 1
 !s85 0
+!i111 0
+vtb_freq_div2
+I1[Hb6;Xk=m3;?4gNdPfMj3
+R6
+R7
+w1638930003
+8E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_freq_div2.v
+FE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_freq_div2.v
+L0 6
+R11
+r1
+31
+R15
+!s110 1638930008
+!i10b 1
+!s100 D]9`UX?jo6kVdGzceK`^E2
+!s85 0
+!s108 1638930008.107000
+!s107 E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_freq_div2.v|
+!s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_freq_div2.v|
 !i111 0
