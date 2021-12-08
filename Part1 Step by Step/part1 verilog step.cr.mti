@@ -5,6 +5,13 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	nonblocking
 
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/blocking.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/blocking.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module blocking
+
+Top level modules:
+	blocking
+
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_block_nonblock.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_block_nonblock.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling module blocking
@@ -14,26 +21,12 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	tb_block_nonblock
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/blocking.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/blocking.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/compare1b.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/compare1b.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module blocking
+-- Compiling module compare1b
 
 Top level modules:
-	blocking
-
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/alu.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/alu.v}
-Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module alu
-
-Top level modules:
-	alu
-
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/freq_div20.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/freq_div20.v}
-Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module freq_div20
-
-Top level modules:
-	freq_div20
+	compare1b
 
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/freq_div2.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/freq_div2.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
@@ -42,20 +35,34 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	freq_div2
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/compare1b.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/compare1b.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/freq_div20.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/freq_div20.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module compare1b
+-- Compiling module freq_div20
 
 Top level modules:
-	compare1b
+	freq_div20
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_alu.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_alu.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/alu.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/alu.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling module alu
--- Compiling module tb_alu
 
 Top level modules:
-	tb_alu
+	alu
+
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module compare1b
+-- Compiling module tb_compare1b
+
+Top level modules:
+	tb_compare1b
+
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_freq_div2.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_freq_div2.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module tb_freq_div2
+
+Top level modules:
+	tb_freq_div2
 
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_freq_div20.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_freq_div20.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
@@ -65,19 +72,12 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	tb_freq_div20
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_freq_div2.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_freq_div2.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_alu.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_alu.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module tb_freq_div2
+-- Compiling module alu
+-- Compiling module tb_alu
 
 Top level modules:
-	tb_freq_div2
-
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v}
-Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module compare1b
--- Compiling module tb_compare1b
-
-Top level modules:
-	tb_compare1b
+	tb_alu
 
 } {} {}}

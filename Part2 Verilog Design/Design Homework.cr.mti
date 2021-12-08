@@ -1,0 +1,15 @@
+{E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/wavegen.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/wavegen.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module wavegen
+
+Top level modules:
+	wavegen
+
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/Encoder8x3.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/Encoder8x3.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module Encoder8x3
+
+Top level modules:
+	Encoder8x3
+
+} {} {}}
