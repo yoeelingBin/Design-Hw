@@ -9,13 +9,14 @@ Z0 dE:/SJTU/2021-2022-1/DSD/ModelSim
 !i10e 25
 !i10f 100
 T_opt
-!s110 1638930039
 V:=z^^V31FQ@lD;GLahmna1
 Z1 04 12 4 work tb_freq_div2 fast 0
 =1-60f2629bf6cc-61b01677-263-41e4
 Z2 o-quiet -auto_acc_if_foreign -work work +acc
 n@_opt
 Z3 OL;O;10.2c;57
+Z4 dE:/SJTU/2021-2022-1/DSD/ModelSim
+!s110 1638930039
 T_opt1
 VAVCl]zS3_PPKY5No2z3BQ2
 R1
@@ -23,17 +24,16 @@ R1
 o-quiet -auto_acc_if_foreign -work work
 n@_opt1
 R3
-Z4 dE:/SJTU/2021-2022-1/DSD/ModelSim
+R4
 !s110 1638930024
 T_opt2
-VzjWdgjGXjGc2YS]`2@d5d2
-04 12 4 work tb_compare1b fast 0
-=1-60f2629bf6cc-61b00f3d-3a2-2c1c
+!s110 1638931705
+VOn]O[bfWXCZTN>IfCCdgO3
+04 13 4 work tb_freq_div20 fast 0
+=1-60f2629bf6cc-61b01cf8-37f-2198
 R2
 n@_opt2
 R3
-R4
-!s110 1638928190
 vcompare1b
 Z5 !s110 1638928000
 IIk@[jQdcFEMhHf`cVZ9_@1
@@ -75,6 +75,27 @@ R15
 !i10b 1
 !s85 0
 !i111 0
+vfreq_div20
+Z16 !s110 1638931695
+I@cR?mH;NkFSQX?JBl6dLZ0
+R6
+R7
+w1638931690
+Ffreq_div20.v
+Z17 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_freq_div20.v
+Z18 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_freq_div20.v
+L0 3
+R11
+r1
+31
+Z19 !s108 1638931695.311000
+Z20 !s107 freq_div20.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_freq_div20.v|
+Z21 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_freq_div20.v|
+R15
+!s100 n530cDjj[;bW3>F5kN8380
+!i10b 1
+!s85 0
+!i111 0
 vtb_compare1b
 R5
 I5fa]DalFR1ED9S3z;6zUb2
@@ -108,10 +129,30 @@ r1
 31
 R15
 !s110 1638930008
-!i10b 1
 !s100 D]9`UX?jo6kVdGzceK`^E2
-!s85 0
 !s108 1638930008.107000
 !s107 E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_freq_div2.v|
 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_freq_div2.v|
+!i10b 1
+!s85 0
+!i111 0
+vtb_freq_div20
+R16
+INmTfcID9AVKULd153]F2=0
+R6
+R7
+w1638931604
+R17
+R18
+L0 6
+R11
+r1
+31
+R19
+R20
+R21
+R15
+!i10b 1
+!s100 0>9m8GaU=g[nQBl^LUXgR1
+!s85 0
 !i111 0
