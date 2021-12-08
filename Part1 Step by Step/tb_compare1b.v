@@ -21,7 +21,7 @@
     
     initial
     begin // ?????????????/??
-      $monitor("????: %tns,", $time, "<----> y=%b,b=%b,a=%b", p_y, p_b, p_a);
+      $monitor("nowtime: %tns,", $time, "<----> y=%b,b=%b,a=%b", p_y, p_b, p_a);
     end
     
   endmodule

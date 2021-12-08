@@ -9,60 +9,69 @@ Z0 dE:/SJTU/2021-2022-1/DSD/ModelSim
 !i10e 25
 !i10f 100
 T_opt
-V[eCzJk__geI?MQ[7bQUhc0
-04 12 4 work tb_compare1b fast 0
-=1-60f2629bf6cc-61af837f-380-6a00
-Z1 o-quiet -auto_acc_if_foreign -work work
+V<@[G>R>1A<M4G8ioR4jXL3
+Z1 04 12 4 work tb_compare1b fast 0
+=1-60f2629bf6cc-61b00e8f-39f-5f2c
+Z2 o-quiet -auto_acc_if_foreign -work work
 n@_opt
-Z2 OL;O;10.2c;57
-Z3 dE:/SJTU/2021-2022-1/DSD/ModelSim
-!s110 1638892416
+Z3 OL;O;10.2c;57
+Z4 dE:/SJTU/2021-2022-1/DSD/ModelSim
+!s110 1638928016
 T_opt1
-!s110 1638892595
 V@ATKb0[VPRjj]EFLMlL5o1
 04 9 4 work compare1b fast 0
 =1-60f2629bf6cc-61af8433-28d-6904
-R1
-n@_opt1
 R2
+n@_opt1
+R3
+R4
+!s110 1638892595
+T_opt2
+!s110 1638928190
+VzjWdgjGXjGc2YS]`2@d5d2
+R1
+=1-60f2629bf6cc-61b00f3d-3a2-2c1c
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt2
+R3
 vcompare1b
-Z4 !s110 1638892387
+Z5 !s110 1638928000
 IIk@[jQdcFEMhHf`cVZ9_@1
-Z5 V`JN@9S9cnhjKRR_L]QIcM3
-Z6 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step
-Z7 w1638892383
+Z6 V`JN@9S9cnhjKRR_L]QIcM3
+Z7 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step
+Z8 w1638928000
 Fcompare1b.v
-Z8 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v
-Z9 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v
+Z9 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v
+Z10 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v
 L0 4
-Z10 OL;L;10.2c;57
+Z11 OL;L;10.2c;57
 r1
 31
-Z11 !s108 1638892387.202000
-Z12 !s107 compare1b.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v|
-Z13 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v|
-Z14 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z12 !s108 1638928000.485000
+Z13 !s107 compare1b.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v|
+Z14 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step/tb_compare1b.v|
+Z15 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
 !s100 4_bSUaUJdh`]@C^WjNA?I0
 !i10b 1
 !s85 0
 !i111 0
 vtb_compare1b
-R4
-Ia`dYLSKHmD4_Yc?TN<13B1
 R5
+I5fa]DalFR1ED9S3z;6zUb2
 R6
 R7
 R8
 R9
-L0 5
 R10
+L0 5
+R11
 r1
 31
-R11
 R12
 R13
 R14
+R15
 !i10b 1
-!s100 WI`?Xn44L?HFQLaHN89^C0
+!s100 5;ko3V:z_[<ci5NERWa3O0
 !s85 0
 !i111 0
