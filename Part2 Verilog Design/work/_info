@@ -9,77 +9,169 @@ Z0 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step
 !i10e 25
 !i10f 100
 T_opt
-VIm`;PWecka6?jL]`jb]Lk2
-04 7 4 work wavegen fast 0
-=1-60f2629bf6cc-61b09aef-60-5430
-Z1 o-quiet -auto_acc_if_foreign -work work +acc
+VN^gH90o7b2Vjl]5DDc<c?3
+Z1 04 9 4 work tb_mux2x1 fast 0
+=1-60f2629bf6cc-61b0ac32-150-4374
+o-quiet -auto_acc_if_foreign -work work
 n@_opt
 Z2 OL;O;10.2c;57
 Z3 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step
-!s110 1638963951
+!s110 1638968370
 T_opt1
-!s110 1638966170
-VAb]o1B5UIQfY^lIi=P:cg2
-04 13 4 work tb_Encoder8x3 fast 0
-=1-60f2629bf6cc-61b0a39a-1e2-56f4
-R1
+!s110 1638970159
+VHmk2eLcNkGP?[eBUSihF@3
+04 9 4 work tb_mux4x1 fast 0
+=1-60f2629bf6cc-61b0b32f-84-40cc
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
 n@_opt1
 R2
+T_opt2
+VLzK6hXBRa33P2j;=89JOX0
+R1
+=1-60f2629bf6cc-61b0a8bf-164-1638
+R4
+n@_opt2
+R2
+R3
+!s110 1638967487
 vEncoder8x3
-Z4 !s110 1638966166
-!s100 AZb1HFLBLeHjZjnPj^HD:3
+Z5 !s110 1638966166
 ILW=:Jm`Ef_R@GS<3kGCmJ3
-Z5 V`JN@9S9cnhjKRR_L]QIcM3
-Z6 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design
-Z7 w1638966158
+Z6 V`JN@9S9cnhjKRR_L]QIcM3
+Z7 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design
+Z8 w1638966158
 FEncoder8x3.v
-Z8 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_Encoder8x3.v
-Z9 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_Encoder8x3.v
+Z9 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_Encoder8x3.v
+Z10 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_Encoder8x3.v
 L0 6
-Z10 OL;L;10.2c;57
+Z11 OL;L;10.2c;57
 r1
 31
-Z11 !s108 1638966166.451000
-Z12 !s107 Encoder8x3.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_Encoder8x3.v|
-Z13 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_Encoder8x3.v|
-Z14 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z12 !s108 1638966166.451000
+Z13 !s107 Encoder8x3.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_Encoder8x3.v|
+Z14 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_Encoder8x3.v|
+Z15 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
 n@encoder8x3
+!s100 AZb1HFLBLeHjZjnPj^HD:3
+!i10b 1
+!s85 0
+!i111 0
+vmux2x1
+Z16 !s110 1638970156
+IdgenPhzgOH7:LMN`iQCEz2
+R6
+R7
+Z17 w1638970143
+Fmux2x1.v
+Z18 Fmux4x1.v
+Z19 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v
+Z20 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v
+L0 5
+R11
+r1
+31
+Z21 !s108 1638970156.178000
+Z22 !s107 mux2x1.v|mux4x1.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v|
+Z23 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v|
+R15
+!s100 Eo3HHj;24h8Jm2i]SLYo40
+!i10b 1
+!s85 0
+!i111 0
+vmux4x1
+R16
+II81l?S7JGo;jAlcKkekmY0
+R6
+R7
+R17
+R18
+R19
+R20
+L0 6
+R11
+r1
+31
+R21
+R22
+R23
+R15
+!s100 2Q7NIkaICTL;:RI>l]KTz1
 !i10b 1
 !s85 0
 !i111 0
 vtb_Encoder8x3
-R4
-IgDZ7cc4>B<;1>ZK5li0YM0
 R5
+IgDZ7cc4>B<;1>ZK5li0YM0
 R6
 R7
 R8
 R9
-L0 6
 R10
+L0 6
+R11
 r1
 31
-R11
 R12
 R13
 R14
+R15
 ntb_@encoder8x3
-!i10b 1
 !s100 6ZBHW_<b3KCZ=EM1:@kGZ1
+!i10b 1
+!s85 0
+!i111 0
+vtb_mux2x1
+IWoOleonz@NaR3@Y6BnYgX2
+R6
+R7
+w1638970018
+8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux2x1.v
+FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux2x1.v
+L0 6
+R11
+r1
+31
+R15
+!s110 1638970050
+!s108 1638970050.612000
+!s107 mux2x1.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux2x1.v|
+!s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux2x1.v|
+!s100 k@mFC3L58CIZY12C``]W53
+!i10b 1
+!s85 0
+!i111 0
+vtb_mux4x1
+R16
+IM<aITn63z>jL6Og_^YEod3
+R6
+R7
+R17
+R19
+R20
+L0 7
+R11
+r1
+31
+R21
+R22
+R23
+R15
+!i10b 1
+!s100 kQjh[bhUa=Kz^KHJCe^i>0
 !s85 0
 !i111 0
 vwavegen
 I[FjeP`JNia>;D>i^zeH?^0
-R5
 R6
+R7
 w1638963936
 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/wavegen.v
 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/wavegen.v
 L0 4
-R10
+R11
 r1
 31
-R14
+R15
 !s110 1638963943
 !s100 Nfh;<XUf95SC^LD20<0O20
 !s108 1638963943.662000
