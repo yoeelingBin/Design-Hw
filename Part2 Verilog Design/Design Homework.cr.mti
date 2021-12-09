@@ -47,6 +47,14 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	comb_Y1
 
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_counter8b_updown.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_counter8b_updown.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module counter8b_updown
+-- Compiling module tb_counter8b_updown
+
+Top level modules:
+	tb_counter8b_updown
+
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_Y2.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_Y2.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling module comb_Y2
