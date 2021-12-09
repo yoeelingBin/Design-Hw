@@ -5,7 +5,7 @@
   
   module comb_Y2(output Y, input A, B, C, D);
     
-    assign Y = B ? ~(A & C) : (A & C & D);
+    assign Y = (B & ~C) | (~A & B) | (A & ~B & C & D);
     
  endmodule
  
