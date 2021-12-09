@@ -9,14 +9,13 @@ Z0 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step
 !i10e 25
 !i10f 100
 T_opt
-VA@d:hdK9j>NX@3`M]M_mf3
-04 9 4 work tb_filter fast 0
-=3-60f2629bf6cc-61b1bda9-3c0-43b0
+!s110 1639065397
+VTG?6BG:H4Y;Q89[gnF;Y10
+04 16 4 work tb_shift_counter fast 0
+=1-60f2629bf6cc-61b22735-228-6290
 Z1 o-quiet -auto_acc_if_foreign -work work +acc
 n@_opt
 Z2 OL;O;10.2c;57
-Z3 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step
-!s110 1639038378
 T_opt1
 V;oag<0N0C1MA7n`<<gG8k3
 04 19 4 work tb_counter8b_updown fast 0
@@ -24,16 +23,17 @@ V;oag<0N0C1MA7n`<<gG8k3
 R1
 n@_opt1
 R2
-R3
+Z3 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step
 !s110 1639040255
 T_opt2
-!s110 1639051422
 VOSX@gPN`2M=MCG]6ESA][1
 04 6 4 work tb_ALU fast 0
 =1-60f2629bf6cc-61b1f09d-2f0-34dc
 R1
 n@_opt2
 R2
+R3
+!s110 1639051422
 vALU
 Z4 !s110 1639051413
 I;_Xz4=?dolB]Ni1IHa:zc2
@@ -353,6 +353,27 @@ R14
 !i10b 1
 !s85 0
 !i111 0
+vshift_counter
+Z79 !s110 1639065389
+IHNM@QVf>l_HWRi;Zb6zCo2
+R5
+R6
+Z80 w1639065369
+Fshift_counter.v
+Z81 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_shift_counter.v
+Z82 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_shift_counter.v
+L0 5
+R10
+r1
+31
+Z83 !s108 1639065389.667000
+Z84 !s107 shift_counter.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_shift_counter.v|
+Z85 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_shift_counter.v|
+R14
+!s100 Z6Ani_jDYB3z^L:CLAUdf3
+!i10b 1
+!s85 0
+!i111 0
 vtb_ALU
 R4
 IVUNQOiGeIW5PeICaH3V6i2
@@ -370,8 +391,8 @@ R12
 R13
 R14
 ntb_@a@l@u
-!i10b 1
 !s100 6_EFVhIUTNKhn8ijHU2G81
+!i10b 1
 !s85 0
 !i111 0
 vtb_comb_str
@@ -596,6 +617,26 @@ R78
 R14
 !s100 9Mi]dKI>jS3Aji`IPIF7I2
 !i10b 1
+!s85 0
+!i111 0
+vtb_shift_counter
+R79
+IUikcJlk0oSdN9E2>h@T6;1
+R5
+R6
+R80
+R81
+R82
+L0 6
+R10
+r1
+31
+R83
+R84
+R85
+R14
+!i10b 1
+!s100 nA2egZje4@d_e>O;mnH@M3
 !s85 0
 !i111 0
 vtestbench_comb
