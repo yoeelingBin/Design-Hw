@@ -82,6 +82,13 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	mux2x1
 
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/filter.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/filter.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module filter
+
+Top level modules:
+	filter
+
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mux4x1.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mux4x1.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling module mux2x1
@@ -140,6 +147,14 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 
 Top level modules:
 	Encoder8x3
+
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_LFSR.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_LFSR.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module LFSR
+-- Compiling module tb_LFSR
+
+Top level modules:
+	tb_LFSR
 
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
