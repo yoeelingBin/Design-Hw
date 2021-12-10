@@ -9,22 +9,22 @@ Z0 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step
 !i10e 25
 !i10f 100
 T_opt
-!s110 1639065397
 VTG?6BG:H4Y;Q89[gnF;Y10
 04 16 4 work tb_shift_counter fast 0
 =1-60f2629bf6cc-61b22735-228-6290
 Z1 o-quiet -auto_acc_if_foreign -work work +acc
 n@_opt
 Z2 OL;O;10.2c;57
+Z3 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step
+!s110 1639065397
 T_opt1
-V;oag<0N0C1MA7n`<<gG8k3
-04 19 4 work tb_counter8b_updown fast 0
-=8-60f2629bf6cc-61b1c4fe-359-15ec
+!s110 1639136757
+VGeBlV`Hii2H:U0TDORT[N3
+04 7 4 work tb_sram fast 0
+=1-60f2629bf6cc-61b33df5-20e-3f04
 R1
 n@_opt1
 R2
-Z3 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step
-!s110 1639040255
 T_opt2
 VOSX@gPN`2M=MCG]6ESA][1
 04 6 4 work tb_ALU fast 0
@@ -374,6 +374,27 @@ R14
 !i10b 1
 !s85 0
 !i111 0
+vsram
+Z86 !s110 1639136749
+IW9e_D1z0TR7[0Pcc9WN4X2
+R5
+R6
+Z87 w1639136746
+Fsram.v
+Z88 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_sram.v
+Z89 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_sram.v
+L0 5
+R10
+r1
+31
+Z90 !s108 1639136749.579000
+Z91 !s107 sram.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_sram.v|
+Z92 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_sram.v|
+R14
+!s100 N5;NSB5?BJJ60`YMK>fj03
+!i10b 1
+!s85 0
+!i111 0
 vtb_ALU
 R4
 IVUNQOiGeIW5PeICaH3V6i2
@@ -635,8 +656,28 @@ R83
 R84
 R85
 R14
-!i10b 1
 !s100 nA2egZje4@d_e>O;mnH@M3
+!i10b 1
+!s85 0
+!i111 0
+vtb_sram
+R86
+I5_@4eQb1V[MO^PcG]22Vb3
+R5
+R6
+R87
+R88
+R89
+L0 7
+R10
+r1
+31
+R90
+R91
+R92
+R14
+!i10b 1
+!s100 ^>@c>GcXDceLnQ^EkSnSU1
 !s85 0
 !i111 0
 vtestbench_comb
