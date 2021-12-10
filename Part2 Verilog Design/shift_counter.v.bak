@@ -13,7 +13,7 @@
       else if (state == 5'b1_0001)
         state <= 5'b0;
       else
-        state = state + 1l;
+        state = state + 1;
     end
     
     function [7:0] state2count(input [4:0] state);

@@ -6,10 +6,10 @@
     
     reg [4:0] state;
     
-    always @(posedge clk or posedge reset)
+    always @(posedge clk)
     begin
       if (reset)
-        state = 5'b0;
+        state <= 5'b0;
       else if (state == 5'b1_0001)
         state <= 5'b0;
       else

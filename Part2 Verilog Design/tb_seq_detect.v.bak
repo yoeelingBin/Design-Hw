@@ -42,9 +42,9 @@
     
     seq_detect m_detect(.flag(p_flag), .clk(p_clk), .din(p_din), .rst_n(p_rst));
     
-    initial
-    begin
-      $monitor($time, "\t rst = %b, din = %b, flag = %b", p_rst, {p_buf, p_din}, p_flag);
-    end
+    //initial
+    //begin
+    //  $monitor($time, "\t rst = %b, din = %b, flag = %b", p_rst, {p_buf, p_din}, p_flag);
+    //end
     
   endmodule
