@@ -78,13 +78,12 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	top
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_counter8b_updown.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_counter8b_updown.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_str2.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_str2.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module counter8b_updown
--- Compiling module tb_counter8b_updown
+-- Compiling module comb_str
 
 Top level modules:
-	tb_counter8b_updown
+	comb_str
 
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_Y2.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_Y2.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
@@ -93,12 +92,13 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	comb_Y2
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_str2.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_str2.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_counter8b_updown.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_counter8b_updown.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module comb_str
+-- Compiling module counter8b_updown
+-- Compiling module tb_counter8b_updown
 
 Top level modules:
-	comb_str
+	tb_counter8b_updown
 
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/dec_counter.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/dec_counter.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
@@ -107,6 +107,13 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	dec_counter
 
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mux2x1.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mux2x1.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module mux2x1
+
+Top level modules:
+	mux2x1
+
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/ones_count.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/ones_count.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling module ones_count
@@ -114,12 +121,13 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	ones_count
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mux2x1.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mux2x1.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_seq_detect.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_seq_detect.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module mux2x1
+-- Compiling module seq_detect
+-- Compiling module tb_seq_detect
 
 Top level modules:
-	mux2x1
+	tb_seq_detect
 
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/filter.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/filter.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
@@ -128,13 +136,13 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	filter
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mux4x1.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mux4x1.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_alu.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_alu.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module mux2x1
--- Compiling module mux4x1
+-- Compiling module ALU
+-- Compiling module tb_ALU
 
 Top level modules:
-	mux4x1
+	tb_ALU
 
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/LFSR.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/LFSR.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
@@ -143,13 +151,13 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	LFSR
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_alu.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_alu.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mux4x1.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mux4x1.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module ALU
--- Compiling module tb_ALU
+-- Compiling module mux2x1
+-- Compiling module mux4x1
 
 Top level modules:
-	tb_ALU
+	mux4x1
 
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mealy.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mealy.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
@@ -172,20 +180,20 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	comb_str
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_dataflow.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_dataflow.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_shift_counter.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_shift_counter.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module comb_dataflow
+-- Compiling module shift_counter
+-- Compiling module tb_shift_counter
 
 Top level modules:
-	comb_dataflow
+	tb_shift_counter
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux2x1.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux2x1.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/alu.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/alu.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module mux2x1
--- Compiling module tb_mux2x1
+-- Compiling module ALU
 
 Top level modules:
-	tb_mux2x1
+	ALU
 
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_ones_count.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_ones_count.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
@@ -195,27 +203,27 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	tb_ones_count
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/alu.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/alu.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux2x1.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux2x1.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module ALU
+-- Compiling module mux2x1
+-- Compiling module tb_mux2x1
 
 Top level modules:
-	ALU
+	tb_mux2x1
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_shift_counter.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_shift_counter.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_dataflow.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/comb_dataflow.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module shift_counter
--- Compiling module tb_shift_counter
+-- Compiling module comb_dataflow
 
 Top level modules:
-	tb_shift_counter
+	comb_dataflow
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/sram.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/sram.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/Encoder8x3.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/Encoder8x3.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module sram
+-- Compiling module Encoder8x3
 
 Top level modules:
-	sram
+	Encoder8x3
 
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_filter.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_filter.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
@@ -225,20 +233,12 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	tb_filter
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/Encoder8x3.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/Encoder8x3.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/sram.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/sram.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module Encoder8x3
+-- Compiling module sram
 
 Top level modules:
-	Encoder8x3
-
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_LFSR.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_LFSR.v}
-Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module LFSR
--- Compiling module tb_LFSR
-
-Top level modules:
-	tb_LFSR
+	sram
 
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
@@ -249,12 +249,13 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	tb_mux4x1
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/shift_counter.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/shift_counter.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_LFSR.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_LFSR.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module shift_counter
+-- Compiling module LFSR
+-- Compiling module tb_LFSR
 
 Top level modules:
-	shift_counter
+	tb_LFSR
 
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/wavegen.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/wavegen.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
@@ -263,12 +264,12 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	wavegen
 
-} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/counter8b_updown.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/counter8b_updown.v}
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/shift_counter.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/shift_counter.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module counter8b_updown
+-- Compiling module shift_counter
 
 Top level modules:
-	counter8b_updown
+	shift_counter
 
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_comb_str.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_comb_str.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
@@ -277,6 +278,13 @@ Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 
 Top level modules:
 	tb_comb_str
+
+} {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/counter8b_updown.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/counter8b_updown.v}
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module counter8b_updown
+
+Top level modules:
+	counter8b_updown
 
 } {} {}} {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_comb_Y1.v} {1 {vlog -work work -vopt {E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_comb_Y1.v}
 Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013

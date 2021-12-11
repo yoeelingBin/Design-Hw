@@ -5,7 +5,9 @@
   
   module mealy(output reg flag, input din, clk, rst);
     
-    reg [2:0] state;
+    reg [2:0] current_state;
+    reg [2:0] next_state;
+    
     
     // state defination
     parameter A = 3'b000;
@@ -18,54 +20,40 @@
     parameter H = 3'b111;
     parameter X = 3'bxxx;
     
-    always @(posedge clk or posedge rst)
+    always @(negedge clk or posedge rst)
     begin
-      if(rst)
-        begin
-          flag <= 1'b0;
-          state <= X;
-        end
+      if (rst)
+        current_state <= X;
       else
-        begin
-          case(state)
-            A: begin
-                flag <= 1'b0;
-                state <= din ? A : B;
-               end
-            B: begin
-                flag <= 1'b0;
-                state <= din ? C : X;
-               end
-            C: begin
-                flag <= 1'b0;
-                state <= din ? A : D;
-               end
-            D: begin
-                flag <= 1'b0;
-                state <= din ? E : X;
-               end
-            E: begin
-                flag <= 1'b0;
-                state <= din ? A : F;
-               end
-            F: begin
-                flag <= 1'b0;
-                state <= din ? G : X;
-               end
-            G: begin
-                flag <= din ? 1'b0 : 1'b1;
-                state <= din ? A : H;
-               end
-            H: begin
-                flag <= 1'b0;
-                state <= din ? G : X;
-               end
-            default: begin
-                      flag <= 1'b0;
-                      state <= din ? A : X;
-                     end
-          endcase
-        end
+        current_state <= next_state;
     end
+    
+    always @(*) 
+    begin
+	   case (current_state)
+		   A: next_state = din ? A : B;
+		   B: next_state = din ? C : X;
+		   C: next_state = din ? A : D;
+		   D: next_state = din ? E : X;
+		   E: next_state = din ? A : F;
+		   F: next_state = din ? G : X;
+	 	   G: next_state = din ? A : H;
+	 	   H: next_state = din ? G : X;
+		   default: next_state = din ? A : X;
+	   endcase
+    end
+    
+    always @(posedge clk or posedge rst) 
+    begin
+     if (rst)
+		   flag = 1'b0;
+	   else 
+	     begin
+	       case (current_state)
+	         G: flag = din ? 1'b0 : 1'b1;
+	         default: flag = 1'b0;
+	       endcase
+	     end
+	  end
     
   endmodule

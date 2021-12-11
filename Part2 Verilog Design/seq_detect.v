@@ -20,7 +20,7 @@
     parameter H = 3'b111;
     
     // synchronous reset states
-    always @(posedge clk)
+    always @(negedge clk)
     begin
       if (!rst_n)
         current_state <= X;
@@ -48,13 +48,13 @@
     always @(posedge clk)
     begin
       if (!rst_n)
-        flag = 1'b0;
+        flag <= 1'b0;
       else
         begin
           case (current_state)
-            D: flag = 1'b1;
-            H: flag = 1'b1;
-            default: flag = 1'b0;
+            D: flag <= 1'b1;
+            H: flag <= 1'b1;
+            default: flag <= 1'b0;
           endcase
         end
      end

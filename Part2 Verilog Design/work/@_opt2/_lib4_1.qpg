@@ -9,13 +9,14 @@ Z0 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step
 !i10e 25
 !i10f 100
 T_opt
-!s110 1639205879
-VIVnN;eIYH3Bbm1LZj:AWj0
+VU7QAdO2g^<o[6Y1UVg3S^0
 04 3 4 work top fast 0
-=3-60f2629bf6cc-61b44bf7-110-385c
+=1-60f2629bf6cc-61b3552d-20e-3d1c
 Z1 o-quiet -auto_acc_if_foreign -work work +acc
 n@_opt
 Z2 OL;O;10.2c;57
+Z3 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step
+!s110 1639142701
 T_opt1
 V4gLoLJ>enRYk@E84`T>jg3
 04 16 4 work tb_shift_counter fast 0
@@ -23,17 +24,16 @@ V4gLoLJ>enRYk@E84`T>jg3
 R1
 n@_opt1
 R2
-Z3 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step
+R3
 !s110 1639142915
 T_opt2
+!s110 1639202241
 V_D>m1FVM[V=P]Kk@IJd3C1
 04 13 4 work tb_seq_detect fast 0
 =7-60f2629bf6cc-61b43dc1-1d9-2b20
 R1
 n@_opt2
 R2
-R3
-!s110 1639202241
 vALU
 Z4 !s110 1639051413
 I;_Xz4=?dolB]Ni1IHa:zc2
@@ -290,41 +290,42 @@ n@l@f@s@r
 !s85 0
 !i111 0
 vmealy
-IZbQ;ldS03nX2g2I6PReJW1
-R5
-R6
-w1639205871
-8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mealy.v
-FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mealy.v
-L0 6
-R10
-r1
-31
-R14
-!s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mealy.v|
-!s110 1639205875
-!i10b 1
-!s100 eYNZ5Ji8c]haiUiT=SjfC0
-!s85 0
-!s108 1639205875.589000
-!s107 E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mealy.v|
-!i111 0
-vmoore
 Z64 !s110 1639142698
-INKd`PHn4cd2]bd<4X@6Z52
+I<FZ0A_7TLzJETg=kn=7;N1
 R5
 R6
 Z65 w1639142693
-Fmoore.v
+Fmealy.v
 Z66 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/top.v
 Z67 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/top.v
-L0 5
+L0 6
 R10
 r1
 31
 Z68 !s108 1639142698.010000
 Z69 !s107 moore.v|mealy.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/top.v|
 Z70 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/top.v|
+R14
+!s100 ^im8E0Q_=nfHI6J`nH5iK0
+!i10b 1
+!s85 0
+!i111 0
+vmoore
+R64
+INKd`PHn4cd2]bd<4X@6Z52
+R5
+R6
+R65
+Fmoore.v
+R66
+R67
+L0 5
+R10
+r1
+31
+R68
+R69
+R70
 R14
 !s100 7BZbHA[bGDh;8JaWCP_Ui1
 !i10b 1
@@ -717,8 +718,8 @@ R90
 R91
 R92
 R14
-!s100 NbE:PMn=e_ZHUE^2C3:f^1
 !i10b 1
+!s100 NbE:PMn=e_ZHUE^2C3:f^1
 !s85 0
 !i111 0
 vtb_shift_counter
@@ -821,3 +822,4 @@ R14
 !i10b 1
 !s85 0
 !i111 0
+                                                                                                                                                                                                                                                                                                                   
