@@ -38,6 +38,7 @@
 		   E: next_state = din ? A : F;
 		   F: next_state = din ? G : X;
 	 	   G: next_state = din ? A : H;
+	 	   H: next_state = din ? G : X;
 		   default: next_state = din ? A : X;
 	   endcase
     end

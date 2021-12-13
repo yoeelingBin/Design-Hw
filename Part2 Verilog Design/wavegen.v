@@ -1,9 +1,7 @@
   // File: wavegen.v
   `timescale 10ns / 1ns
   
-  module wavegen();
-    
-    reg out;
+  module wavegen(output reg out);
     
     initial
     fork

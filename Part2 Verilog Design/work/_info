@@ -9,31 +9,31 @@ Z0 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step
 !i10e 25
 !i10f 100
 T_opt
-!s110 1639205879
-VIVnN;eIYH3Bbm1LZj:AWj0
-04 3 4 work top fast 0
-=3-60f2629bf6cc-61b44bf7-110-385c
+!s110 1639396521
+V[^4WjA07n4S]Bc]69eP:R2
+04 16 4 work tb_shift_counter fast 0
+=2-60f2629bf6cc-61b734a9-322-5a20
 Z1 o-quiet -auto_acc_if_foreign -work work +acc
 n@_opt
 Z2 OL;O;10.2c;57
 T_opt1
-V4gLoLJ>enRYk@E84`T>jg3
-04 16 4 work tb_shift_counter fast 0
-=1-60f2629bf6cc-61b35603-218-5ab4
+VZlnU=>oC6AhdBzGHl7IKg0
+04 10 4 work tb_wavegen fast 0
+=2-60f2629bf6cc-61b72e46-36c-27bc
 R1
 n@_opt1
 R2
 Z3 dE:/SJTU/2021-2022-1/DSD/Design Hw/Part1 Step by Step
-!s110 1639142915
+!s110 1639394887
 T_opt2
-V_D>m1FVM[V=P]Kk@IJd3C1
-04 13 4 work tb_seq_detect fast 0
-=7-60f2629bf6cc-61b43dc1-1d9-2b20
+V_hni3PV2NmWIiPi1^4lkd2
+04 7 4 work tb_LFSR fast 0
+=1-60f2629bf6cc-61b72fda-2f5-3374
 R1
 n@_opt2
 R2
 R3
-!s110 1639202241
+!s110 1639395290
 vALU
 Z4 !s110 1639051413
 I;_Xz4=?dolB]Ni1IHa:zc2
@@ -268,32 +268,31 @@ R14
 !s85 0
 !i111 0
 vLFSR
-Z57 !s110 1639035598
-I?8=z7CY_k0LlQkOchZjO11
+IbR0aW5mPZoLQH_A5lTTn41
 R5
 R6
-Z58 w1639035592
-FLFSR.v
-Z59 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_LFSR.v
-Z60 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_LFSR.v
+w1639395268
+8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/LFSR.v
+FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/LFSR.v
 L0 5
 R10
 r1
 31
-Z61 !s108 1639035598.311000
-Z62 !s107 LFSR.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_LFSR.v|
-Z63 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_LFSR.v|
 R14
 n@l@f@s@r
-!s100 Y`QKloKf7;[zXA;jCfQYP3
+!s110 1639395277
+!s100 TC]JA2<3fNc`1nnRzBIbe3
+!s108 1639395277.274000
+!s107 E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/LFSR.v|
+!s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/LFSR.v|
 !i10b 1
 !s85 0
 !i111 0
 vmealy
-IZbQ;ldS03nX2g2I6PReJW1
+I3E5UPQn1`<f;<ma9zncLa0
 R5
 R6
-w1639205871
+w1639215310
 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mealy.v
 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mealy.v
 L0 6
@@ -301,125 +300,124 @@ R10
 r1
 31
 R14
+Z57 !s110 1639215362
 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mealy.v|
-!s110 1639205875
-!i10b 1
-!s100 eYNZ5Ji8c]haiUiT=SjfC0
-!s85 0
-!s108 1639205875.589000
+!s100 ogQ?QbTVHZmKc28XaAKZn3
+!s108 1639215362.335000
 !s107 E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/mealy.v|
+!i10b 1
+!s85 0
 !i111 0
 vmoore
-Z64 !s110 1639142698
-INKd`PHn4cd2]bd<4X@6Z52
+R57
+II0TokDc468A`>Y=e7[4YP0
 R5
 R6
-Z65 w1639142693
-Fmoore.v
-Z66 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/top.v
-Z67 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/top.v
+w1639215332
+8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/moore.v
+FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/moore.v
 L0 5
 R10
 r1
 31
-Z68 !s108 1639142698.010000
-Z69 !s107 moore.v|mealy.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/top.v|
-Z70 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/top.v|
 R14
-!s100 7BZbHA[bGDh;8JaWCP_Ui1
+!s100 16dL2MJ0C5gA]c8VmE6R@2
+!s108 1639215362.398000
+!s107 E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/moore.v|
+!s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/moore.v|
 !i10b 1
 !s85 0
 !i111 0
 vmux2x1
-Z71 !s110 1638970156
+Z58 !s110 1638970156
 IdgenPhzgOH7:LMN`iQCEz2
 R5
 R6
-Z72 w1638970143
+Z59 w1638970143
 Fmux2x1.v
-Z73 Fmux4x1.v
-Z74 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v
-Z75 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v
+Z60 Fmux4x1.v
+Z61 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v
+Z62 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v
 L0 5
 R10
 r1
 31
-Z76 !s108 1638970156.178000
-Z77 !s107 mux2x1.v|mux4x1.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v|
-Z78 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v|
+Z63 !s108 1638970156.178000
+Z64 !s107 mux2x1.v|mux4x1.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v|
+Z65 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_mux4x1.v|
 R14
 !s100 Eo3HHj;24h8Jm2i]SLYo40
 !i10b 1
 !s85 0
 !i111 0
 vmux4x1
-R71
+R58
 II81l?S7JGo;jAlcKkekmY0
 R5
 R6
-R72
-R73
-R74
-R75
+R59
+R60
+R61
+R62
 L0 6
 R10
 r1
 31
-R76
-R77
-R78
+R63
+R64
+R65
 R14
 !s100 2Q7NIkaICTL;:RI>l]KTz1
 !i10b 1
 !s85 0
 !i111 0
 vones_count
-Z79 !s110 1639016647
+Z66 !s110 1639016647
 IjXJhW<>ZBeWWcMX`<gIW<1
 R5
 R6
-Z80 w1639016640
+Z67 w1639016640
 Fones_count.v
-Z81 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_ones_count.v
-Z82 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_ones_count.v
+Z68 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_ones_count.v
+Z69 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_ones_count.v
 L0 5
 R10
 r1
 31
-Z83 !s108 1639016647.543000
-Z84 !s107 ones_count.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_ones_count.v|
-Z85 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_ones_count.v|
+Z70 !s108 1639016647.543000
+Z71 !s107 ones_count.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_ones_count.v|
+Z72 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_ones_count.v|
 R14
 !s100 MDAIPBa>4ZQ<gDIge0_if1
 !i10b 1
 !s85 0
 !i111 0
 vseq_detect
-Z86 !s110 1639202222
+Z73 !s110 1639202222
 IlAi:H8nY2Q5`M=9i>^aVS0
 R5
 R6
-Z87 w1639202217
+Z74 w1639202217
 Fseq_detect.v
-Z88 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_seq_detect.v
-Z89 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_seq_detect.v
+Z75 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_seq_detect.v
+Z76 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_seq_detect.v
 L0 6
 R10
 r1
 31
-Z90 !s108 1639202222.734000
-Z91 !s107 seq_detect.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_seq_detect.v|
-Z92 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_seq_detect.v|
+Z77 !s108 1639202222.734000
+Z78 !s107 seq_detect.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_seq_detect.v|
+Z79 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_seq_detect.v|
 R14
 !s100 O9bS[4bW0KS8VYohaI_6Y1
 !i10b 1
 !s85 0
 !i111 0
 vshift_counter
-IB2iAP=cc5Czo8LX=9[4hz1
+Ii[EMRE]Lk=zG7e]z_DXo73
 R5
 R6
-w1639142891
+w1639396497
 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/shift_counter.v
 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/shift_counter.v
 L0 5
@@ -427,30 +425,30 @@ R10
 r1
 31
 R14
-!s110 1639142894
-!s100 dVoW4iK<O?2[>O3nCJk6j1
-!s108 1639142894.344000
-!s107 E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/shift_counter.v|
 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/shift_counter.v|
+!s110 1639396501
 !i10b 1
+!s100 fBWi6E5kIeOlg1B6Vb<0?1
 !s85 0
+!s108 1639396501.165000
+!s107 E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/shift_counter.v|
 !i111 0
 vsram
-Z93 !s110 1639136749
+Z80 !s110 1639136749
 IW9e_D1z0TR7[0Pcc9WN4X2
 R5
 R6
-Z94 w1639136746
+Z81 w1639136746
 Fsram.v
-Z95 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_sram.v
-Z96 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_sram.v
+Z82 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_sram.v
+Z83 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_sram.v
 L0 5
 R10
 r1
 31
-Z97 !s108 1639136749.579000
-Z98 !s107 sram.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_sram.v|
-Z99 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_sram.v|
+Z84 !s108 1639136749.579000
+Z85 !s107 sram.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_sram.v|
+Z86 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_sram.v|
 R14
 !s100 N5;NSB5?BJJ60`YMK>fj03
 !i10b 1
@@ -621,22 +619,22 @@ R14
 !s85 0
 !i111 0
 vtb_LFSR
-R57
 IR:i`80`d?zk]a54@^A^zg1
 R5
 R6
-R58
-R59
-R60
+w1639035592
+8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_LFSR.v
+FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_LFSR.v
 L0 7
 R10
 r1
 31
-R61
-R62
-R63
 R14
 ntb_@l@f@s@r
+!s110 1639035598
+!s108 1639035598.311000
+!s107 LFSR.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_LFSR.v|
+!s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_LFSR.v|
 !s100 lmkoYa[SY[Bz>]KW`2cRG1
 !i10b 1
 !s85 0
@@ -662,60 +660,60 @@ R14
 !s85 0
 !i111 0
 vtb_mux4x1
-R71
+R58
 IM<aITn63z>jL6Og_^YEod3
 R5
 R6
-R72
-R74
-R75
+R59
+R61
+R62
 L0 7
 R10
 r1
 31
-R76
-R77
-R78
+R63
+R64
+R65
 R14
 !s100 kQjh[bhUa=Kz^KHJCe^i>0
 !i10b 1
 !s85 0
 !i111 0
 vtb_ones_count
-R79
+R66
 ID1<RXC1`]fFRSnm>Nn=LM0
 R5
 R6
-R80
-R81
-R82
+R67
+R68
+R69
 L0 6
 R10
 r1
 31
-R83
-R84
-R85
+R70
+R71
+R72
 R14
 !s100 9Mi]dKI>jS3Aji`IPIF7I2
 !i10b 1
 !s85 0
 !i111 0
 vtb_seq_detect
-R86
+R73
 IacJIDe2aXLRZf`kP@ncAb2
 R5
 R6
-R87
-R88
-R89
+R74
+R75
+R76
 L0 7
 R10
 r1
 31
-R90
-R91
-R92
+R77
+R78
+R79
 R14
 !s100 NbE:PMn=e_ZHUE^2C3:f^1
 !i10b 1
@@ -742,22 +740,42 @@ R14
 !s85 0
 !i111 0
 vtb_sram
-R93
+R80
 I5_@4eQb1V[MO^PcG]22Vb3
 R5
 R6
-R94
-R95
-R96
+R81
+R82
+R83
 L0 7
 R10
 r1
 31
-R97
-R98
-R99
+R84
+R85
+R86
 R14
 !s100 ^>@c>GcXDceLnQ^EkSnSU1
+!i10b 1
+!s85 0
+!i111 0
+vtb_wavegen
+Z87 !s110 1639394881
+I5lkeWU_:7iN_o224Pj_7Y1
+R5
+R6
+Z88 w1639394873
+Z89 8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_wavegen.v
+Z90 FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_wavegen.v
+L0 7
+R10
+r1
+31
+Z91 !s108 1639394881.319000
+Z92 !s107 wavegen.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_wavegen.v|
+Z93 !s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/tb_wavegen.v|
+R14
+!s100 1V<?0g?QXDc?C03IVcJYz2
 !i10b 1
 !s85 0
 !i111 0
@@ -782,42 +800,43 @@ R14
 !s85 0
 !i111 0
 vtop
-R64
 I:97_E1_:8L<of4VC2A4P<2
 R5
 R6
-R65
-R66
-R67
+w1639142693
+8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/top.v
+FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/top.v
 L0 7
 R10
 r1
 31
-R68
-R69
-R70
 R14
+!s110 1639142698
+!s108 1639142698.010000
+!s107 moore.v|mealy.v|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/top.v|
+!s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/top.v|
 !s100 :jbQbc=fk18QTf>@8]C>00
 !i10b 1
 !s85 0
 !i111 0
 vwavegen
-I[FjeP`JNia>;D>i^zeH?^0
+R87
+IRQf76gSWYb0;FY_Mb>^]`1
 R5
 R6
-w1638963936
-8E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/wavegen.v
-FE:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/wavegen.v
+R88
+Fwavegen.v
+R89
+R90
 L0 4
 R10
 r1
 31
+R91
+R92
+R93
 R14
-!s110 1638963943
-!s100 Nfh;<XUf95SC^LD20<0O20
-!s108 1638963943.662000
-!s107 E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/wavegen.v|
-!s90 -reportprogress|300|-work|work|-vopt|E:/SJTU/2021-2022-1/DSD/Design Hw/Part2 Verilog Design/wavegen.v|
+!s100 Qd7HBkgHMIgL1Mb31@zbU2
 !i10b 1
 !s85 0
 !i111 0

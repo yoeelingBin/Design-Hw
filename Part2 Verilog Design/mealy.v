@@ -31,15 +31,15 @@
     always @(*) 
     begin
 	   case (current_state)
-		   A: next_state = din ? A : B;
-		   B: next_state = din ? C : X;
-		   C: next_state = din ? A : D;
-		   D: next_state = din ? E : X;
-		   E: next_state = din ? A : F;
-		   F: next_state = din ? G : X;
-	 	   G: next_state = din ? A : H;
-	 	   H: next_state = din ? G : X;
-		   default: next_state = din ? A : X;
+		   A: next_state = din ? B : A;
+		   B: next_state = din ? X : C;
+		   C: next_state = din ? D : A;
+		   D: next_state = din ? X : E;
+		   E: next_state = din ? F : A;
+		   F: next_state = din ? X : G;
+	 	   G: next_state = din ? H : A;
+	 	   H: next_state = din ? X : G;
+		   default: next_state = din ? X : A;
 	   endcase
     end
     
@@ -50,7 +50,7 @@
 	   else 
 	     begin
 	       case (current_state)
-	         G: flag = din ? 1'b0 : 1'b1;
+	         G: flag = din ? 1'b1 : 1'b0;
 	         default: flag = 1'b0;
 	       endcase
 	     end
